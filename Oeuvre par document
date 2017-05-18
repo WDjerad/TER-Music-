@@ -1,0 +1,4 @@
+with open("/home/wafa/Bureau/BenchMark DS3 -DS2.txt") as bmfile:
+   for i, line in enumerate(bmfile):
+       with open("d{}.txt".format(str(i+1)), "w") as txtfile:
+           txtfile.write(line)
