@@ -1,0 +1,9 @@
+import os
+
+mon_fichier = open("C:/Users/dell/Desktop/BM.txt", "r")
+contenu = mon_fichier.read()
+
+print("there are %r ORGANIZATION" %contenu.count('ORGANIZATION'))
+print ("there are %r PERSON" % contenu.count('PERSON'))
+print("there are %r LOCATION" % contenu.count('LOCATION'))
+print("there are %r DATE" % contenu.count('DATE'))
